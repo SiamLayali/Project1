@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FEF0E1"
     android:orientation="vertical"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity2">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
-        android:text="Main Menu For KFC Resturant"
+        android:text="Main Menu For Starbucks Resturant"
         android:textSize="24sp" />
 
     <Spinner
-        android:id="@+id/spnCats"
+        android:id="@+id/spnCats2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -24,7 +25,7 @@
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/btnShow"
+        android:id="@+id/btnShow2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -33,9 +34,11 @@
         android:textSize="14sp" />
 
     <ListView
-        android:id="@+id/lstItems"
+        android:id="@+id/lstItems2"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
+
+

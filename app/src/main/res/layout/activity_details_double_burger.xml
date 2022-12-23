@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsDoubleBurger"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="409dp"
+        android:layout_height="400dp"
+        android:layout_gravity="top|center"
+        android:src="@drawable/doubleburger"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Double tower Burger"
+        android:textColor="#201E1E"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_marginLeft="10dp"
+        android:text=" The classic burger in a double and spoiled version, a piece of hash brown potato, 2 chicken fillets in a bun with pickles, tomato, onion, iceberg lettuce, ketchup and mayonnaise. Option also for spicy chicken fillet."
+        android:textColor="#971818"
+        android:textSize="20sp"
+        android:textStyle="bold"
+       />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:text="Extra "
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="3dp"
+        android:text="Cheese"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="3dp"
+        android:text="ketchup"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="3dp"
+        android:text="mayonnaise"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="3dp"
+        android:text="Tomato"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

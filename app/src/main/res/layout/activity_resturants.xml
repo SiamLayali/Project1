@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resturants"
+    android:orientation="vertical"
+
+    >
+
+   <!-- <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="384dp"
+        android:layout_height="346dp"
+        android:layout_gravity="top|center"
+        app:srcCompat="@drawable/kfclogo"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="-39dp"
+        />-->
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="@color/white"
+
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/logokfc" />
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="KFC Resturant"
+        android:textColor="#201E1E"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>-->
+
+   <!-- <ImageView
+        android:id="@+id/imageV"
+        android:layout_width="384dp"
+        android:layout_height="346dp"
+        android:layout_gravity="top|center"
+        app:srcCompat="@drawable/starbuckslogo"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="-39dp" />-->
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/starbuckslogo" />
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Starbucks Resturant"
+        android:textColor="#201E1E"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>-->
+
+
+</LinearLayout>
